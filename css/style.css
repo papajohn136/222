@@ -1,0 +1,148 @@
+/* шапка  */
+.head {
+  margin-top: 30px;
+}
+
+.order {
+  /* border: 2px black solid; */
+  display: block;
+  float: left;
+  font-size: 42px;
+  font-weight: bold;
+
+  /* ширина блока по наполнению */
+}
+
+.sum {
+  /* border: 2px black solid; */
+  display: block;
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 42px;
+}
+
+.sity {
+  display: block;
+  float: left;
+  font-size: 42px;
+}
+
+.info-orde {
+  margin: 10px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.duplicate {
+  margin-right: 6px;
+}
+
+.completed {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.right-info {
+  margin: 15px;
+
+  /* position: absolute; */
+  float: right;
+}
+
+/* инфо заказа */
+
+.order-created {
+  /* border: 2px black solid;  */
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  
+  padding: 10px;
+  
+}
+
+/* .order-created {
+  display: grid;
+  
+  grid-template-columns: 4fr 0.7fr 0.5fr 2.5fr;
+  grid-gap: 20px;
+  
+  
+} */
+
+.order-created {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.order-created_href {
+  width: 1100px;
+
+  
+
+}
+
+.order-created_title {
+    text-transform: uppercase;
+    color: gray;
+
+}
+
+.order-created_time {
+    font-weight: bold;
+}
+
+.status a {
+    padding-right: 15px;
+}
+
+.order-created_client_number {
+  color: gray;
+}
+
+.ws {
+  color: gray;
+}
+
+.order-created_ws_time {
+  font-weight: bold;
+}
+
+
+.courier-problems {
+  /* grid-auto-flow: column;
+  display: block; */
+  display: flex;
+  width: 800px;
+  
+}
+
+.img {
+  height: 100px;
+  width: 100px;
+  
+}
+
+.courier-foto {
+  display: flex;
+}
+
+.completed {
+  margin-left: 10px;
+}
+
+.number-icon {
+  width: 17px;
+  height: 17px;
+  margin-right: 8px;
+ 
+}
+
+.courier-location {
+  color: gray;
+}
+
+.courier-mode {
+  padding-left: 15px;
+  padding-bottom: 20px;
+}
